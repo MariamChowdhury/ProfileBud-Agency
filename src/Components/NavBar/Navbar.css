@@ -1,0 +1,15 @@
+.nav-link,
+.nav-link:hover {
+  color: #ffb027 !important;
+  font-weight: 500 !important;
+}
+.nav-cart-button {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(315deg, #1a1d21, #262627);
+  box-shadow: -6px -6px 18px #5c6166, 6px 6px 18px #1a1d21;
+}
+.nav-cart-button img {
+  width: 25px;
+}
