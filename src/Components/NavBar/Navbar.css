@@ -10,6 +10,9 @@
   background: #1a1d21;
   box-shadow: 10px 10px 18px #1a1d21, -10px -10px 18px #3c4144;
 }
+.nav-cart-button:hover {
+  box-shadow: inset 10px 10px 18px #1a1d21, inset -10px -10px 18px #3c4144;
+}
 .nav-cart-button img {
   width: 25px;
 }
