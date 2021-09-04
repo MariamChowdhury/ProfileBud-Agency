@@ -24,17 +24,17 @@ const Navbar = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-md-5 mx-0  my-md-4 my-0">
+              <li class="nav-item mx-md-4 mx-0  my-md-4 my-0">
                 <a class="nav-link" href="#">
                   USPs
                 </a>
               </li>
-              <li class="nav-item mx-md-5 mx-0  my-md-4 my-0">
+              <li class="nav-item mx-md-4 mx-0  my-md-4 my-0">
                 <a class="nav-link" href="#">
                   PRICING
                 </a>
               </li>
-              <li class="nav-item mx-md-5 mx-0  my-md-3 my-0 ">
+              <li class="nav-item mx-md-4 mx-0  my-md-3 my-0 ">
                 <a class="nav-link" href="#">
                   <button class="nav-cart-button btn ">
                     <img src={cart} alt="" />
