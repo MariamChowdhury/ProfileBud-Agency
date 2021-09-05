@@ -1,6 +1,7 @@
 .header-container {
   background-image: url("../images/particles.png");
   background-size: contain;
+  z-index: 1;
 }
 .gray-font {
   color: #707070;
@@ -17,6 +18,14 @@
 .sky-blue-font:hover {
   color: #0097ff;
 }
+.green-font,
+.green-font:hover {
+  color: #00ff91;
+}
+.purple-font,
+.purple-font:hover {
+  color: #7e08ff;
+}
 .rectangle-button {
   border-radius: 35px;
   background: #1a1d21;
@@ -30,7 +39,6 @@
   box-shadow: inset 5px 5px 28px #000000, inset -5px -5px 28px #2f3235;
 }
 .card {
-  border-radius: 50px;
   box-shadow: 12px 12px 24px #000000, -12px -12px 24px #2f3236;
   background: #1a1d21;
   width: 20rem;
@@ -38,17 +46,33 @@
 .margin-class {
   margin-left: 17%;
 }
-/* background: linear-gradient(145deg, #C1C3C6, #FFFFFF);
-border-radius: 100%;
-box-shadow: inset 18.02px 18.02px 25px #DCDEE2, inset -18.02px -18.02px 25px #FFFFFF; */
-.orange-circle {
-  height: 25px;
-  width: 25px;
+.div-design {
+  background: #1a1d21;
+  height: 30px;
+  width: 40px;
   border-radius: 50%;
-  background: rgb(255, 17, 17);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 17, 17, 1) 0%,
-    rgba(255, 128, 0, 1) 100%
-  );
+  box-shadow: inset 15px 15px 26px #26282b, inset -15px -15px 26px #000000;
+}
+
+.gradient-circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+@media (max-width: 990px) and (min-width: 771px) {
+  .margin-class {
+    margin-left: 26%;
+  }
+  .card {
+    width: 18rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .card {
+    width: 17rem;
+  }
+  .margin-class {
+    margin-left: 90px;
+  }
 }
